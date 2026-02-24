@@ -49,7 +49,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">전화번호</p>
-                    <p className="text-lg font-bold text-primary">010-1234-5678</p>
+                    <p className="text-lg font-bold text-primary">010-6355-8055</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -112,7 +112,7 @@ export default function ContactPage() {
                   <h3 className="text-2xl font-bold text-primary mb-4">신청이 완료되었습니다!</h3>
                   <p className="text-slate-600 mb-8">
                     담당자가 확인 후 24시간 이내에 연락드리겠습니다.<br />
-                    급하신 문의는 전화(010-1234-5678)로 부탁드립니다.
+                    급하신 문의는 전화(010-6355-8055)로 부탁드립니다.
                   </p>
                   <button 
                     onClick={() => setFormStatus('idle')}

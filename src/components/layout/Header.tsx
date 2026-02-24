@@ -53,7 +53,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -69,17 +69,17 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="tel:010-1234-5678"
+              href="tel:010-6355-8055"
               className="flex items-center space-x-2 bg-secondary text-primary px-4 py-2 rounded-full font-bold hover:bg-yellow-400 transition-colors"
             >
               <Phone size={16} />
-              <span>010-1234-5678</span>
+              <span>010-6355-8055</span>
             </a>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="lg:hidden p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
@@ -98,7 +98,7 @@ export default function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-slate-100 overflow-hidden"
+            className="lg:hidden bg-white border-t border-slate-100 overflow-hidden"
           >
             <div className="px-4 pt-2 pb-6 space-y-1">
               {navItems.map((item) => (
@@ -117,7 +117,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="tel:010-1234-5678"
+                href="tel:010-6355-8055"
                 className="flex items-center justify-center space-x-2 bg-primary text-white px-4 py-4 rounded-md font-bold mt-4"
               >
                 <Phone size={18} />

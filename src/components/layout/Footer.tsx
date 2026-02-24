@@ -37,7 +37,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <Phone size={18} className="text-secondary shrink-0" />
-                <span>010-1234-5678</span>
+                <span>010-6355-8055</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Clock size={18} className="text-secondary shrink-0" />

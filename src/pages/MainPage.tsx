@@ -16,8 +16,8 @@ export default function MainPage() {
           />
         </div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="border border-blue-400/40 p-8 md:p-16 rounded-sm relative">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-24 md:pt-32 lg:pt-0">
+          <div className="border border-blue-400/40 p-6 md:p-16 rounded-sm relative">
             {/* Decorative corners for the blue box effect in screenshot */}
             <div className="absolute -top-1 -left-1 w-4 h-4 border-t-2 border-l-2 border-blue-400" />
             <div className="absolute -top-1 -right-1 w-4 h-4 border-t-2 border-r-2 border-blue-400" />
@@ -33,7 +33,7 @@ export default function MainPage() {
               <span className="inline-block px-4 py-1 bg-secondary text-primary font-bold rounded-full text-xs md:text-sm mb-8">
                 한스레이저(Han's Laser) 한국 공식 대리점
               </span>
-              <h1 className="text-5xl md:text-8xl font-bold text-white leading-tight mb-8 tracking-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-white leading-tight mb-8 tracking-tight">
                 정밀한 기술의 완성,<br />
                 <span className="text-secondary">원공사</span>가 책임집니다.
               </h1>
